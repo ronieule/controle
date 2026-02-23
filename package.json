@@ -1,10 +1,17 @@
 {
-  "name": "controle",
+  "name": "election-candidacy-manager",
   "version": "1.0.0",
+  "description": "Project for Render deployment",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "node server.js"
   },
+  "engines": {
+    "node": "22.x"
+  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
   }
 }
